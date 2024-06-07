@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Address, toNano, comment } from "ton";
 import { useTonConnect } from "../hooks/useTonConnect";
 import { Card, FlexBoxCol, FlexBoxRow, Button, Input } from "./styled/styled";
-import myImage from './IMG_1082.png';
+import myImage from './IMG_1083.png';
 
 export function Welcome() {
   const { sender, connected } = useTonConnect();
