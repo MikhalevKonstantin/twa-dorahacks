@@ -4,10 +4,6 @@ export const Card = styled.div`
   padding: 18px 20px;
   border-radius: 8px;
   background-color: white;
-
-  @media (prefers-color-scheme: dark) {
-    background-color: #111;
-  }
 `;
 
 export const FlexBoxRow = styled.div`
@@ -51,3 +47,10 @@ export const Input = styled("input")`
     border: 1px solid #fefefe;
   }
 `;
+
+// #74B9FF - голубенький
+// #0098EA - синий основной цвет тона
+// #F7F9FB - серая подложка приложения, так же тоновский цвет
+// #FAB1A0 - розовенький
+// #1E2337 - темный тоновский цвет
+// #55EFC4 - зелененький
