@@ -17,7 +17,7 @@ export function Welcome() {
   return (
     <Card>
       <FlexBoxCol>
-        {/* <img src={myImage} alt="My Image" /> */}
+        <img src={myImage} alt="My Image" />
         <h3>Welcome to TONCHI</h3>
         <FlexBoxRow>
           <label>Here you can connect your wallet </label>
