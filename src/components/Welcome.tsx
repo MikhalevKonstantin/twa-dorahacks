@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Address, toNano, comment } from "ton";
 import { useTonConnect } from "../hooks/useTonConnect";
 import { Card, FlexBoxCol, FlexBoxRow, Button, Input } from "./styled/styled";
+import myImage from './IMG_1082.png';
 
 export function Welcome() {
   const { sender, connected } = useTonConnect();
@@ -16,6 +17,7 @@ export function Welcome() {
   return (
     <Card>
       <FlexBoxCol>
+        <img src={myImage} alt="My Image" />
         <h3>Welcome to TONCHI</h3>
         <FlexBoxRow>
           <label>Here you can connect your wallet </label>
