@@ -34,8 +34,8 @@ function App() {
     <StyledApp>
       <AppContainer>
         <FlexBoxCol>
+        <Welcome/>
           <FlexBoxRow>
-            <Welcome/>
             <TonConnectButton />
             <Button>
               {network
