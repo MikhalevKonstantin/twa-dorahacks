@@ -18,7 +18,7 @@ export function Welcome() {
     <Card>
       <FlexBoxCol>
       <img src={myImage} alt="My Image" />
-        <h3>Welcome to TONCHIa</h3>
+        <h3>Welcome to TONCHIk</h3>
         <FlexBoxRow>
           <label>Here you can connect your wallet </label>
         </FlexBoxRow>
